@@ -482,6 +482,9 @@ channel:@WaderTGTeam
 ]],
 	help_text_super =[[
 king SuperGroup Commands :
+
+!webshot (آدرس سایت)
+اسکرین شات گرفتن از یک سایت
 =========================
 #info
 About the SuperGroup info
