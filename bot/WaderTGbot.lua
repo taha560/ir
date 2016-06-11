@@ -481,167 +481,154 @@ will return group ban list
 channel:@WaderTGTeam
 ]],
 	help_text_super =[[
-king SuperGroup Commands :
+راهنمای گروه
 
 !webshot (آدرس سایت)
 اسکرین شات گرفتن از یک سایت
 =========================
 #info
-About the SuperGroup info
+درباره ی فرد
 =========================
 #infull
 About the you infull
 =========================
 #admins
-SuperGroup admins list
+لیست ادمین
 =========================
 #setadmin
-Set SuperGroup admins
+تنظیم ادمین
 =========================
 #owner
-Show owner of SuperGroup
+نمایش مدیر اصلی گروه
 =========================
 #setowner
-Set the SuperGroup owner
+تنظیم کردن مدیر اصلی
 =========================
 #modlist
-Show moderators list
+لیست مدیران فرعی
 =========================
 #bots
-List bots in SuperGroup
+لیست ربات های وارده
 =========================
 #bot[lock,unlock]
-Bot[lock,unlock] the SuperGroup
+قفل ربات و باز کردن ربات 
 =========================
 #who
-List all users in SuperGroup
+لیست ممبر  گروه
 =========================
 #block
-kick a user from SuperGroup
-+Added user to blocked list+
+بلاک کردن از گروه
 =========================
 #ban
-Ban user from the SuperGroup
-+Only with[id+user]+
+بن کردن از گروه با ریپلی یاایدی
 =========================
 #unban
-Unban user from the SuperGroup
-+Only with[id+user]+
+آن بن کردن
 =========================
 #id
-SuperGroup ID or user ID
-+For user ID:#id @username or reply by: #id+
+آیدی
 =========================
 #id from
-Get ID of user massage is forwarded from
+ایدی فروارد شده
 =========================
 #kickme
-Kick you from SuperGroup
+حذف خود از گروه
 =========================
 #promote[@username+id]
-Promote a SuperGroup moderator
+تنظیم ادمین فرعی ربات
 =========================
 #demote[@username+id]
-Demote a SuperGroup moderator
+حذف ادمین فرعی
 =========================
 #setname [group name]
-Set the chat name
+تنظیم اسم گروه
 =========================
 #setphoto
-Set the chat photo
-+Then photo and send the+
+تنظیم عکس گروه
 =========================
 #setrules[rules]
-Set the chat rules
+تنظیم قوانین گروه
 =========================
 #setabout
-Set the chat about
+تنظیم درباره ی گروه
 =========================
 #save [value] <text>
 Set extra info for chat
 =========================
-#get[value]
-Retrieves extra info for chat by value
-=========================
 #newlink
-Create group link
+لینک جدید
 =========================
 #link
-Group the link
+دریافت لینک
 =========================
 #linkpv
-Send SuperGroup link private
+لینک پی وی
 =========================
 #rules
-Chat the rules
+نمایش قوانین
 =========================
 #lock[links+flood+spam+arabic+member+rtl+sticker+contacts+strict+tgservice+forward]
-Lock SuperGroup settings
+قفل کردن 
 =========================
 #unlock[links+flood+spam+arabic+member+rtl+sticker+contacts+strict+tgservice+forward]
-Unlock SuperGroup settings
+باز کردن 
 =========================
 #mute[all+audio+gifs+photo+video+text+service]
-Mute SuperGroup massage types
+چت ممنوع
 =========================
 #unmute[all+audio+gifs+photo+video+text+service]
-Unmute SuperGroup massage types
+باز کردن چت
 =========================
 #setflood[value]
-Set[value] as flood sensitivity
+تنظیم حساسیت فلود یا اسپم
 =========================
 #settins
-SuperGroup settings
+تنظیمات گروه
 =========================
 #muteslist
-SuperGroup mutes
+لیست موت
 =========================
 #muteuser[@username+id]
-Mute a user in SuperGroup
-+#muteuser[@username+id]remove mutelist+
+ساکت نگه داشتن در گروه فرد را
 =========================
 #mutelist
-SuperGroup muted user list
+پاک شده گان در گروه
 =========================
 #banlist
-SuperGroup ban list
+لیست بن
 =========================
 #clean[rules+about+modlist+mutelist]
-Cleaned
+پاک کردن قوانین و درباره
 =========================
 #del
-Deletes a massage by reply
-=========================
-#public[yes+no]
-Set SuperGroup visibility in pm #chats or #chatlist commands
+پاک کردن پیام با ریپلی
 =========================
 #res[@username]
-Returns user name and id by @username
+پیدا کردن ایدی عددی
 =========================
 #log
 Returns SuperGroup logs
 =========================
 #addword[text]
-Added the badword
-+If the desired word is cleared+
+فیلتر کلمات
 =========================
 #badwords
 SuperGroup badword list
 =========================
 #rw[text]
-clear[text]from list badword
+لیست فیلتر
 =========================
 #clearbadwords
-Cleaned badword list
+پاک کردن لیست فیلتر
 =========================
 #clantag[tag]
-Specifications clan a door clsh of clan
+باز کردن تگ
 =========================
 #music[truk name]
-Find songs to
+ سرچ موزیک
 =========================
 #me
-Returns your specifications
+نمایش مقام در گروه
 =========================
 #tophoto
 Become stickers to photos
@@ -653,16 +640,13 @@ Turn photos into stikers
 Text to photos
 =========================
 #sticker[text]
-Text-to-stickers
+نوشته به استیکر
 =========================
 #wai
-To show office user
-=========================
-#voice[text]
-Text-to-voice
-=========================
-*Only from markes "!" , "/" , "#" use*
-Channel:...
+نمایش ایدی شماره
+========================
+با علامت های زیر هم قابل استفاده میباشد "!" , "/" , "#" use*
+
 ]],
   }
   serialize_to_file(config, './data/config.lua')
